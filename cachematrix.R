@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+##  function creates the matrix object
 
 makeCacheMatrix <- function(x = matrix())
 {
@@ -24,7 +22,7 @@ makeCacheMatrix <- function(x = matrix())
   
 }
 
-## Write a short comment describing this function
+## function returns cached data.In case the data was not in cache it calulates the mean and put in cache
 
 cacheSolve <- function(x, ...) 
 {
